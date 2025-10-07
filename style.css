@@ -355,12 +355,20 @@ body{
 
 
 .attribution {
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    /* color: hsl(228, 45%, 44%); */
+    color: var(--Rose-900);
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.attribution a:hover{
+    text-decoration: underline;
 }
 
 @media (max-width:759px) {
